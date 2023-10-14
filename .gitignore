@@ -1,0 +1,4 @@
+venv/
+.venv/
+config_local.yml
+respuesta_*.json

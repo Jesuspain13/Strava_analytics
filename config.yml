@@ -1,0 +1,6 @@
+client_id: 1234
+client_secret: "xxx"
+jesus_athlete_code: '' # Only for first time you get the bearer token
+cora_athlete_code: ''
+refresh_token: ''
+access_token: ''
