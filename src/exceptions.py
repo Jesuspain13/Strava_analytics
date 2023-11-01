@@ -11,3 +11,13 @@ class NotControlledException(Exception):
         # Call the base class constructor with the parameters it needs
         super().__init__(message)
             
+class MongoDBConnectionException(Exception):
+    def __init__(self, message):            
+        # Call the base class constructor with the parameters it needs
+        super().__init__(message)
+
+
+class MongoDBOperationException(Exception):
+    def __init__(self, message):
+        # Call the base class constructor with the parameters it needs
+        super().__init__(message)

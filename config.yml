@@ -1,6 +1,13 @@
-client_id: 1234
-client_secret: "xxx"
-jesus_athlete_code: '' # Only for first time you get the bearer token
-cora_athlete_code: ''
-refresh_token: ''
-access_token: ''
+strava:
+  client_id: 111
+  client_secret: xxxx
+mongo_db:
+  cluster: xxx
+  user: xxxx
+  pwd: xxxx
+athletes:
+  Jesus:
+    strava_code: xxxx
+    tokens:
+      access_token: xxxx
+      refresh_token: xxxx

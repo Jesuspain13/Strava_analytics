@@ -2,3 +2,4 @@ venv/
 .venv/
 config_local.yml
 respuesta_*.json
+__pycache__/
